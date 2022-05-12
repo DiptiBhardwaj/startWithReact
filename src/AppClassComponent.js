@@ -88,7 +88,7 @@ class App extends React.Component {
     }
   }
   componentDidMount () {
-    fetch("http://localhost:3000/startWithReact/pokemon.json")
+    fetch("https://diptibhardwaj.github.io/startWithReact/pokemon.json")
     .then((resp) => resp.json())
     .then((pokemon) => this.setState({...this.state, pokemon}))
   }
